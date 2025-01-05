@@ -1,16 +1,6 @@
-
 cd Machine-Translation
-
-### install dependencies
-pip install -r requirements.txt
-
-
-### Preprocess data
-python preprocess.py
-
-python split_dataset.py
-
-
+### Analysis dataset
+python analysis.py
 ### Create vocabulary
 python vocab/moses_vocab.py
 

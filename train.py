@@ -45,7 +45,7 @@ ENCODER_HIDDEN_SIZE = DECODER_HIDDEN_SIZE = 500
 ENCODER_NUM_LAYERS = DECODER_NUM_LAYERS = 2
 ENCODER_DROPOUT = DECODER_DROPOUT = 0.2
 
-N_EPOCH = 30
+N_EPOCH = 12
 LEARNING_RATE = 1
 TRAIN_EVAL_FREQ = 50  # number of batches
 
@@ -198,7 +198,7 @@ optimizer = optim.SGD(
 )
 scheduler = optim.lr_scheduler.MultiStepLR(  # hardcoded
     optimizer,
-    milestones=list(range(8,29)),
+    milestones=list(range(8,11)),
     gamma=0.5,
 )
 
