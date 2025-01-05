@@ -5,8 +5,6 @@
 .idea/
 /venv/
 /models/
-/data/*
-!/data/vi.txt
-!/data/en.txt
+
 /vocab/*
 !/vocab/moses_vocab.py
